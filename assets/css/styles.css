@@ -41,10 +41,41 @@ main{
 
 }
 
-.chatactivo{
-    display: flex;
+.user{
+    border:  solid 2px green;
 }
 
+.activo{
+    border: solid 2px violet;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.user img{
+    height: 50px;
+    width: auto;
+
+    border-radius: 50%;
+}
+
+.user-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icon-container{
+    display: flex;
+    gap: 0.5rem;
+    padding: 5px;
+}
 
 .nertworking {
     border: 2px solid green;
