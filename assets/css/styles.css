@@ -89,3 +89,19 @@ div img{
     width: 300px;
     /* height: 100px; */
 }
+
+button{
+background-color: #A491D2;
+color: white;
+border-style: none;
+padding: 10px 40px;
+}
+
+.btn_chat{
+    padding: 20px;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
