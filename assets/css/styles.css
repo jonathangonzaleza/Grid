@@ -1,31 +1,51 @@
 *{
     margin: 0;
     box-sizing: border-box;
+
 }
 
+body{
+
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    font-size:small;
+    
+}
+
+.titulo{
+font-size: xx-large !important;
+
+}
+
+
 main{
-    border: 2px solid red;
-    height: 100vh;
+    /* border: 2px solid red; */
+    /* height: 100vh; */
     display: flex;
     
 
    } 
 
 .profile{
-    border: 2px solid blue;
-    height: 100%;
-    width: 100%;
+    /* border: 2px solid blue; */
+    /* height: 100%; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-right:  solid 1.5px #E8EBE4;
 
 } 
 
 .profile{
-    flex-basis: 20%;
+    flex-basis: 25%;
+    /* padding: 15px; */
 }
 
 
 .main{
-    border: 2px solid violet;
-    height: 100%;
+    /* border: 2px solid violet; */
+    /* height: 100%; */
     width: 100%;
     
     
@@ -41,13 +61,24 @@ main{
 
 }
 
-.user{
-    border:  solid 2px green;
+.contact .user-container{
+    border-top:  solid 3px #E8EBE4;
+    /* border-bottom:  solid 2px #E8EBE4; */
+}
+.firstcontact .user-container{
+    border-bottom:  solid 3px #E8EBE4;
+    /* border-bottom:  solid 2px #E8EBE4; */
+
+    p{
+        font-size: smaller;
+        font-weight: bold;
+        color: #A491D2;
+    }
 }
 
-.activo{
+/* .activo{
     border: solid 2px violet;
-}
+} */
 
 .user{
     display: flex;
@@ -61,8 +92,9 @@ main{
 .user img{
     height: 50px;
     width: auto;
-
-    border-radius: 50%;
+    border-radius: 50% ;
+    border: solid 2px #828485;
+    
 }
 
 .user-container{
@@ -74,34 +106,56 @@ main{
 .icon-container{
     display: flex;
     gap: 0.5rem;
-    padding: 5px;
+    padding: 10px;
 }
 
-.nertworking {
-    border: 2px solid green;
+.icon-container i{
+    color: #828485;
+}
+
+
+.networking {
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+    text-align: center;
+    padding: 40px;
+    /* justify-content: center; */
+
+}
+
+
+.networking img{
+    width: 230px;
+    padding: 20px;
+}
+
+.networking .main-parrafo{
+    width: 400px;
+}
+
+
+/* div img{
     
-}
-
-div img{
     width: 300px;
-    /* height: 100px; */
-}
 
-button{
+} */
+
+.btn_chat{
 background-color: #A491D2;
 color: white;
 border-style: none;
 padding: 10px 40px;
 }
 
-.btn_chat{
-    padding: 20px;
-}
-
-.btn_container{
-    display: flex;
-    justify-content: center;
+/* .btn_chat{
+     padding:40px;
+    }  */
+    
+    .btn_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:40px; 
 }
