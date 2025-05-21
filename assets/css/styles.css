@@ -4,6 +4,41 @@
 
 }
 
+header{
+    grid-area: header;
+}
+
+menu{
+    grid-area: menu;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+body{
+
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "menu main"
+    "footer footer";
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     height: 100vh;
+
+    
+}
+
+
+
 body{
 
     font-family: roboto, sans-serif;
@@ -18,13 +53,12 @@ font-size: xx-large !important;
 }
 
 
-main{
+/* main{ */
     /* border: 2px solid red; */
     /* height: 100vh; */
-    display: flex;
-    
+    /* display: flex; */
 
-   } 
+   /* }  */
 
 .profile{
     /* border: 2px solid blue; */
